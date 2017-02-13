@@ -19,7 +19,7 @@ import UIKit
 //}
 
 public extension UIDevice {
-    
+    //To Check For iPhone
     var iPhone: Bool {
         return UIDevice().userInterfaceIdiom == .phone
     }
